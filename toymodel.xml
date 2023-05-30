@@ -26,6 +26,24 @@
           <fbc:fluxObjective fbc:reaction="BM_3" fbc:coefficient="1"/>
         </fbc:listOfFluxObjectives>
       </fbc:objective>
+      <fbc:objective fbc:id="obj1_2" fbc:type="maximize">
+        <fbc:listOfFluxObjectives>
+          <fbc:fluxObjective fbc:reaction="R_4" fbc:coefficient="1"/>
+          <fbc:fluxObjective fbc:reaction="R_5" fbc:coefficient="3"/>
+        </fbc:listOfFluxObjectives>
+      </fbc:objective>
+      <fbc:objective fbc:id="obj2_2" fbc:type="maximize">
+        <fbc:listOfFluxObjectives>
+          <fbc:fluxObjective fbc:reaction="R_4" fbc:coefficient="2"/>
+          <fbc:fluxObjective fbc:reaction="R_5" fbc:coefficient="1"/>
+        </fbc:listOfFluxObjectives>
+      </fbc:objective>
+      <fbc:objective fbc:id="obj3_2" fbc:type="maximize">
+        <fbc:listOfFluxObjectives>
+          <fbc:fluxObjective fbc:reaction="R_4" fbc:coefficient="1"/>
+          <fbc:fluxObjective fbc:reaction="R_5" fbc:coefficient="1"/>
+        </fbc:listOfFluxObjectives>
+      </fbc:objective>
     </fbc:listOfObjectives>
     <listOfParameters>
       <parameter value="-1000" id="cobra_default_lb" sboTerm="SBO:0000626" constant="true" units="mmol_per_gDW_per_hr"/>
